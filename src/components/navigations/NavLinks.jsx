@@ -37,7 +37,7 @@ const NavLinks = ({ isMinimize }) => {
 
             <span
               className={clsx(
-                "hidden text-[12px] leading-normal whitespace-nowrap transition-opacity duration-300 md:block",
+                "hidden text-[12px] leading-normal whitespace-nowrap transition-opacity duration-300 md:block lg:text-[16px]",
                 isMinimize ? "w-0 opacity-0" : "h-auto w-auto opacity-100",
               )}
             >

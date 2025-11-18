@@ -3,7 +3,7 @@ import AppLayout from "./ui/AppLayout";
 import Pots from "./pages/Pots";
 import Transactions from "./pages/Transactions";
 import Reccuring from "./pages/Reccuring";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/Overview";
 import Budgets from "./pages/Budgets";
 
 const App = () => {

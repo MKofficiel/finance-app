@@ -17,7 +17,7 @@ const Sidebar = () => {
         isMinimize ? "lg:w-[120px]" : "lg:w-[300px]",
       )}
     >
-      {/* <Logo isMinimize={isMinimize} /> */}
+      <Logo isMinimize={isMinimize} />
       <NavLinks isMinimize={isMinimize} />
       <MenuMinimize isMinimize={isMinimize} onMinimize={setIsMinimize} />
     </div>
