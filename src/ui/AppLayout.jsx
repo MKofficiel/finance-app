@@ -1,11 +1,13 @@
 import { Outlet } from "react-router";
+import Sidebar from "../components/navigations/Sidebar";
 
 const AppLayout = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-blue-600">bienvemue</h1>
-
-      <Outlet />
+    <div className="grid min-h-dvh grid-rows-[1fr_auto] lg:grid-cols-[auto_1fr]">
+      <Sidebar />
+      <main className="bg-green -ml-10">
+        <Outlet />
+      </main>
     </div>
   );
 };
