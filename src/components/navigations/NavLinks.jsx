@@ -22,6 +22,7 @@ const NavLinks = ({ isMinimize }) => {
           //   to={path}
           // >
           <NavLink
+            key={label}
             className={clsx(
               "flex w-full flex-col items-center gap-1 rounded-tr-lg border-transparent px-4 pt-2 pb-3 font-bold text-gray-300 max-lg:rounded-tl-lg max-lg:border-b-4 lg:grid lg:grid-cols-[auto_1fr] lg:gap-4 lg:rounded-tr-2xl lg:rounded-br-2xl lg:border-l-4 lg:pt-4 lg:pl-8",
               isActive && "bg-beige-100 border-green! text-gray-900",

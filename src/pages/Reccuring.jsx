@@ -1,5 +1,5 @@
 const Reccuring = () => {
-  return <div>Reccuring</div>;
+  return <>Reccuring</>;
 };
 
 export default Reccuring;
